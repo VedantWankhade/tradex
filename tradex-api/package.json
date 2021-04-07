@@ -1,0 +1,21 @@
+{
+  "name": "tradex-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js, graphql -w . -w .env ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.21.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase": "^8.3.2",
+    "graphql": "^15.5.0",
+    "mongodb": "^3.6.5",
+    "nodemon": "^2.0.7"
+  }
+}
